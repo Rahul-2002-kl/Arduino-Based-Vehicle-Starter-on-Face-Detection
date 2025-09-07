@@ -8,10 +8,7 @@ Title: Arduino Based Vehicle Starter on Face Detection
 
 📖 Description
 
-This project implements a vehicle anti-theft and smart ignition system using Arduino and face detection technology.The vehicle starts only when an authorized user’s face is detected. If an unauthorized person attempts to start the vehicle:
-
-The system denies ignition Sends the intruder’s photo to the owner via Telegram alert Provides an option for the owner to remotely approve ignition using a password system This enhances vehicle security and reduces theft risks.
-
+This project implements an Arduino-based vehicle ignition system using face detection to prevent unauthorized access and vehicle theft. The system uses OpenCV with Haarcascade and LBPH algorithms for real-time face recognition, ensuring only authorized users can start the vehicle. In case of an intruder, the system sends a Telegram alert with the captured photo to the owner, along with an option for remote access approval. It also integrates an accident detection module for enhanced safety, making it a secure and cost-effective solution for modern vehicle security.
 
 🎯 Objectives
 
