@@ -1,0 +1,96 @@
+#project_Name
+
+Title: Arduino Based Vehicle Starter on Face Detection
+
+🚗🔒 This project is an Arduino-based vehicle starter with face detection for enhanced security.
+👤✅ The ignition starts only for authorized users, while intruders trigger real-time Telegram alerts with photos.
+⚡ Integrated with OpenCV, Haarcascade, and LBPH, it provides a cost-effective and reliable anti-theft system.
+
+📖 Description
+
+This project implements a vehicle anti-theft and smart ignition system using Arduino and face detection technology.The vehicle starts only when an authorized user’s face is detected. If an unauthorized person attempts to start the vehicle:
+
+The system denies ignition Sends the intruder’s photo to the owner via Telegram alert Provides an option for the owner to remotely approve ignition using a password system This enhances vehicle security and reduces theft risks.
+
+
+🎯 Objectives
+
+Prevent vehicle theft using face recognition authentication.
+
+Use Haarcascade algorithm and LBPH for face recognition.
+
+Provide real-time alerts via Telegram.
+
+Enable remote authorization in case of emergency.
+
+
+⚙️ Methodology
+
+Camera captures the image of the driver.
+
+Image is converted into grayscale and processed using OpenCV.
+
+Haarcascade classifier checks for a face match in the local dataset.
+
+If matched → Vehicle ignition ON.
+
+If not matched → Telegram alert with intruder’s photo.
+
+Owner can approve/deny access with password.
+
+
+🔧 Hardware Used
+
+Arduino UNO
+
+Camera Module
+
+Accident Sensor Module
+
+LCD Display
+
+Relay Module
+
+Johnson Motor
+
+
+💻 Software Used
+
+Arduino IDE (for microcontroller programming)
+
+OpenCV (Python) for face detection & recognition
+
+Python IDE for running scripts
+
+Haarcascade Algorithm & LBPH for recognition
+
+
+📊 Results
+
+Vehicle ignition starts successfully only for authorized users.
+
+Intruder attempts are detected & reported with photo evidence.
+
+Telegram alerts are triggered in real time.
+
+Accident alert module detects sudden impact and displays warnings.
+
+
+✅ Advantages
+
+High security (biometric + remote password system).
+
+Cost-effective and scalable.
+
+Real-time notifications.
+
+Accident detection integrated.
+
+
+📌 Future Enhancements
+
+Integration with GPS tracking.
+
+Cloud-based dataset storage.
+
+Mobile application for remote control.
